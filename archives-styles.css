@@ -1,0 +1,168 @@
+/* CSS Styles for the header */
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #282B30;
+}
+
+/* Style the header */
+header {
+    background-color: #1E2124;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+.title-header {
+    font-family: Nunito, Comic, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #1E2124;
+    color: #FFFFFF;
+    margin-right: 660px;
+}
+
+/* Style the navigation */
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Nunito, Comic, Arial, Helvetica, sans-serif;
+}
+
+header nav ul li:first-child {
+    margin-left: auto;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+header nav ul li a i {
+    margin-right: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: #424549;
+    color: #FFFFFF;
+}
+
+
+/* Footer */
+footer{
+    background-color: #1E2124;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Below the Header */
+
+.page-title{
+    color: #FFFFFF;
+    font-family: Nunito, Comic, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 20px 0px;
+    font-size: 55px;
+}
+
+/* Karuta Section */
+
+.scroll-button{
+    cursor: pointer;
+}
+
+.scroll-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e48c4c;
+    color: #fff3e5;
+    border: none;
+    border-style: groove;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    transition: background-color 0.3s ease;
+    margin: 20px 0px 0px 10px;
+    font-family: Nunito, Comic, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.scroll-button:hover {
+    background-color: #c37741;
+}
+.scroll-button:active {
+    background-color: #8f572f;
+}
+
+/* Card List*/
+
+.example-card{
+    background-color: #282B30;
+    border: 5px;
+    border-style: solid;
+    border-color: #e48c4c;
+    padding: 10px;
+    margin: 30px 450px 0px 450px;
+}
+.card-details{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+    background-color: #282B30;
+}
+.card-detailing{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 10px 0px;
+    background-color: #282B30;
+}
+.owned-by{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 0px 10px 0px;
+    background-color: #282B30;
+}
+.owner-name{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 2px;
+    margin: 0px 0px 10px 0px;
+    background-color: #7289DA;
+    border-radius: 6px;
+}
+.owner-name:hover{
+    background-color: #5865F2;
+}
+.card-image{
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
